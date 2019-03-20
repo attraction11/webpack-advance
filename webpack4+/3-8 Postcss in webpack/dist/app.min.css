@@ -1,0 +1,36 @@
+body {
+    font-size: 20px;
+}
+
+.src-css-common_bigBox_o4lLi {
+    border: 5px solid #000;
+}
+
+:root {
+    --mainColor: red;
+}
+
+a {
+    color: var(--mainColor);
+}html {
+  background: #ff3333;
+}
+.src-css-base_box_1dC2a {
+  height: 200px;
+  width: 200px;
+  border-radius: 4px;
+  background: #333;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+body {
+  font-size: 20px;
+}
+.src-css-common_bigBox_o4lLi {
+  border: 5px solid #000;
+}
+a {
+  color: red;
+}

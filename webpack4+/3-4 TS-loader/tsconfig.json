@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        // 包含了ES6和ES7的模块
+        "module": "commonjs",
+        // 编译后文件的运行环境
+        "target": "es5",
+        // 在ts文件中是否允许js语法
+        "allowJs": true,
+        // 指定ts声明文件目录
+        "typeRoots": [
+            "./node_modules/@type",
+            "./typings/modules"
+        ]
+    },
+
+    // 指定编译路径
+    "include": [
+        "./src/*"
+    ],
+
+    // 排除编译路径
+    "exclude": [
+        "./node_modules"
+    ]
+}

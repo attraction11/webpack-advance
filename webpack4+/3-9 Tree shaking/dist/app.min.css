@@ -1,0 +1,15 @@
+html {
+  background: #ff3333;
+}
+
+.bigBox {
+  height: 400px;
+  width: 400px;
+  border: 5px;
+}
+
+.smallBox {
+  height: 400px;
+  width: 400px;
+  border: 5px;
+}

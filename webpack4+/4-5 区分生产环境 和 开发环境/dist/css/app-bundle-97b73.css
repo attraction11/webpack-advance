@@ -1,0 +1,80 @@
+body,html {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.bigBox {
+  height: 400px;
+  width: 100%;
+  border: 5px solid #000;
+  color: #000;
+}
+
+.bigBox > div {
+  width: 64px;
+  height: 64px;
+  float: left;
+}
+
+.bigBox .ani1 {
+  background-image: url(/assets/imgs/sprite.@2x-777dc.png);
+  background-position: 0px 0px;
+  background-size: 128px 128px;
+}
+
+.bigBox .ani2 {
+  background-image: url(/assets/imgs/sprite.@2x-777dc.png);
+  background-position: -64px 0px;
+  background-size: 128px 128px;
+}
+
+.bigBox .ani3 {
+  background-image: url(/assets/imgs/sprite.@2x-777dc.png);
+  background-position: 0px -64px;
+  background-size: 128px 128px;
+}
+
+.bigBox .ani4 {
+  background-image: url(/assets/imgs/sprite.@2x-777dc.png);
+  background-position: -64px -64px;
+  background-size: 128px 128px;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(/assets/imgs/fontawesome-webfont-674f5.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(/assets/imgs/fontawesome-webfont-af7ae.woff2) format('woff2'), url(/assets/imgs/fontawesome-webfont-fee66.woff) format('woff'), url(/assets/imgs/fontawesome-webfont-b0687.ttf) format('truetype'), url(/assets/imgs/fontawesome-webfont-912ec.svg#fontawesomeregular) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-folder:before {
+  content: "\F07B";
+}
+
+html {
+  background: #ff6666;
+}
+
+a.link {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  width: 51%;
+}
+
+.a {
+  border: 2px;
+  color: black;
+  font-size: 14px;
+}
