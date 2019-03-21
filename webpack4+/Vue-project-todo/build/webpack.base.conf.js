@@ -4,6 +4,7 @@ const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 
+// 将路径指定到根目录
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
@@ -20,13 +21,16 @@ const createLintingRule = () => ({
 })
 
 module.exports = {
+  // 指定webpack运行的上下文
   context: path.resolve(__dirname, '../'),
   entry: {
     app: './src/main.js'
   },
   output: {
     path: config.build.assetsRoot,
+    // 定义静态加载模块名称
     filename: '[name].js',
+    // 定义动态加载模块名称
     chunkFilename: '[name].js',
     publicPath: process.env.NODE_ENV === 'production'
       ? config.build.assetsPublicPath

@@ -10,12 +10,15 @@ const webpackHotMiddleware = require('webpack-hot-middleware')
 const proxyMiddleware = require('http-proxy-middleware')
 const historyApiFallback = require('connect-history-api-fallback')
 
+// 引入webpack的配置，传入环境变量
 const config = require('./webpack.common.conf')('development')
+// 处理webpack配置，提供给app使用
 const compiler = webpack(config)
 
 const proxyTable = require('./proxy')
 
 for (let context in proxyTable) {
+    // 循环将proxy的配置，提供给app使用
     app.use(proxyMiddleware(context, proxyTable[context]))
 }
 

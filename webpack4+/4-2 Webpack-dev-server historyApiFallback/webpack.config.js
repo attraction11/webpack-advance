@@ -19,6 +19,7 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, 'dist'),
+        // 指定在web服务器上的根路径
         publicPath: '/',
         filename: 'js/[name]-bundle-[hash:5].js'
     },
@@ -28,7 +29,7 @@ module.exports = {
         // HTML5 histroy API rewrite
         historyApiFallback: {
             rewrites: [
-                {   
+                {
                     // 什么样的路径
                     from: /^\/([a-zA-Z0-9]+\/?)([a-zA-Z0-9]+)/,
                     // 转去哪里
@@ -90,7 +91,7 @@ module.exports = {
                                         require('postcss-sprites')({
                                             spritePath: 'dist/assets/imgs/sprites',
                                             retina: true
-                                        }),      
+                                        }),
                                         require('postcss-cssnext')()
                                     ]
                                 }

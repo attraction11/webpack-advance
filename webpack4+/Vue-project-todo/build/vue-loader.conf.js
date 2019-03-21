@@ -13,6 +13,7 @@ module.exports = {
   }),
   cssSourceMap: sourceMapEnabled,
   cacheBusting: config.dev.cacheBusting,
+  // 处理html中引入的资源，采用require方式，便于loader处理
   transformToRequire: {
     video: ['src', 'poster'],
     source: 'src',

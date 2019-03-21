@@ -9,6 +9,7 @@ exports.assetsPath = function (_path) {
     ? config.build.assetsSubDirectory
     : config.dev.assetsSubDirectory
 
+  // posix是为win和mac下都能获得相同的路径
   return path.posix.join(assetsSubDirectory, _path)
 }
 

@@ -71,7 +71,7 @@ module.exports = {
                                         require('postcss-sprites')({
                                             spritePath: 'dist/assets/imgs/sprites',
                                             retina: true
-                                        }),      
+                                        }),
                                         require('postcss-cssnext')()
                                     ]
                                 }
@@ -123,6 +123,7 @@ module.exports = {
                             limit: 5000,
                             publicPath: '',
                             outputPath: 'dist/',
+                            // 这里配置使hTML中引入的图片不进入dist目录
                             useRelativePath: true
                         }
                     }
@@ -163,10 +164,13 @@ module.exports = {
                 './src/*.js'
             ])
         }),
+
+        // 提取公共文件
         new webpack.optimize.CommonsChunkPlugin({
             name: 'manifest'
         }),
 
+        // 将常用的js代码直接写入html中，避免多次请求公共js
         new HtmlInlinkChunkPlugin({
             inlineChunks: ['manifest']
         }),

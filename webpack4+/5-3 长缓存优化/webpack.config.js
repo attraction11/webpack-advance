@@ -13,6 +13,8 @@ module.exports = {
     },
 
     plugins: [
+        // 解决场景：引入新模块，模块顺序变化，vendor hash变化
+        // 原理: 给chunk设置name不因顺序而改变hash
         new webpack.NamedChunksPlugin(),
         new webpack.NamedModulesPlugin(),
 

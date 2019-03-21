@@ -1,4 +1,5 @@
 module.exports = {
+    // 只有html时才会，执行匹配跳转
     htmlAcceptHeaders: ['text/html', 'application/xhtml+xml'],
     rewrites: [
         {

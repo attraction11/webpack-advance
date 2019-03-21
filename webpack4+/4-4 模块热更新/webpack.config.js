@@ -19,6 +19,7 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, 'dist'),
+        // 指定在web服务器上的根路径
         publicPath: '/',
         filename: 'js/[name]-bundle-[hash:5].js'
     },
@@ -42,6 +43,7 @@ module.exports = {
             }
         },
         hot: true,
+        // 无论如何都不要全局刷新
         hotOnly: true,
         historyApiFallback: {
             rewrites: [
@@ -66,6 +68,7 @@ module.exports = {
             {
                 test:/\.js$/,
                 include: [path.resolve(__dirname, 'src')],
+                // 排除语法校验目录
                 exclude: [path.resolve(__dirname, 'src/libs')],
                 use: [
                     {
@@ -74,6 +77,7 @@ module.exports = {
                             presets: ['env']
                         }
                     },
+                    // 在babel之前进行语法检查
                     {
                         loader: 'eslint-loader',
                         options: {
@@ -108,7 +112,7 @@ module.exports = {
                                 // require('postcss-sprites')({
                                 //     spritePath: 'dist/assets/imgs/sprites',
                                 //     retina: true
-                                // }),      
+                                // }),
                                 require('postcss-cssnext')()
                             ]
                         }
@@ -199,10 +203,11 @@ module.exports = {
 
         new CleanWebpackPlugin(['dist']),
 
+        // 配合webpack-dev-server实现热更新
         new webpack.HotModuleReplacementPlugin(),
 
+        // 清晰看到模块的相对路径
         new webpack.NamedModulesPlugin(),
-
 
     ]
 }

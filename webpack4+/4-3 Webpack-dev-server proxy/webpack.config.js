@@ -19,6 +19,7 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, 'dist'),
+        // 指定在web服务器上的根路径
         publicPath: '/',
         filename: 'js/[name]-bundle-[hash:5].js'
     },
@@ -27,15 +28,19 @@ module.exports = {
 
     devServer: {
         port: 9001,
+        // 编译错误显示在浏览器遮罩上
         overlay: true,
         proxy: {
             '/': {
                 target: 'https://m.weibo.cn',
+                // 改变源到URL(主要用在虚拟主机)，默认false
                 changeOrigin: true,
+                // 在控制台显示代理信息，便于调试
                 logLevel: 'debug',
                 pathRewrite: {
                     '^/comments': '/api/comments'
                 },
+                // 增加HTTP请求头（可以伪造成浏览器请求）
                 headers: {
                     'Cookie': '_T_WM=044532f80b8fabc6dc347fd417c33202; ALF=1517569014; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhQljxrwvAfCCZa_p.u8pB.5JpX5K-hUgL.Fo2cS0qRehBcSKM2dJLoI7HpqJ8XwBtt; SCF=AkQsXaaTywl0RziwnumQ0tVE_xW5udcpoGP43q7eb2tFW9lXRc4bVNOn9N5m_ZKwFc-Q2r4Hz5oMBAbVJuhI1uk.; SUB=_2A253SLARDeRhGedI7FQZ8CrKzjuIHXVUstBZrDV6PUJbktANLUXEkW1NVtAHXD7nHQtwFntsDZsmqj2nB17cClnd; SUHB=0k1zt1ckxYq3c6; H5_INDEX_TITLE=qbaty; H5_INDEX=0_all; WEIBOCN_FROM=1110006030; M_WEIBOCN_PARAMS=oid%3D4193586758833502%26luicode%3D20000061%26lfid%3D4193594443440569%26uicode%3D20000061%26fid%3D4193586758833502'
                 }
@@ -107,7 +112,7 @@ module.exports = {
                                 // require('postcss-sprites')({
                                 //     spritePath: 'dist/assets/imgs/sprites',
                                 //     retina: true
-                                // }),      
+                                // }),
                                 require('postcss-cssnext')()
                             ]
                         }

@@ -1,3 +1,4 @@
+// 专门打包第三方组件的webpack配置
 const path = require('path')
 const webpack = require('webpack')
 
@@ -5,7 +6,7 @@ module.exports = {
     entry: {
         vue: ['vue', 'vue-router'],
         ui: ['element-ui']
-    }, 
+    },
 
     output: {
         path: path.join(__dirname, '../src/dll/'),

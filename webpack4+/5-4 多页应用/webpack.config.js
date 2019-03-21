@@ -2,6 +2,7 @@ const merge = require('webpack-merge')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CleanWebpack = require('clean-webpack-plugin')
+// css提取
 const ExtractTextWebpack = require('extract-text-webpack-plugin')
 const path = require('path')
 
@@ -41,6 +42,7 @@ const baseConfig = {
     ]
 }
 
+// 以下采用了ES6默认对象的写法
 const generatePage = function ({
     title = '',
     entry = '',

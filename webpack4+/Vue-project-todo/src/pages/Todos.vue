@@ -37,6 +37,7 @@ export default {
     ]),
     createTodo () {
       this.addTodo({
+        // 这里用扩展运算符转为自变量类型，若使用引用类型会被this.newtodo.text = '' 改变
         ...this.newtodo
       })
 

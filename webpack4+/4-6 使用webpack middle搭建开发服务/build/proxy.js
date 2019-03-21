@@ -1,4 +1,5 @@
 module.exports = {
+    // 添加匹配规则/.+  只有/后有路径才会匹配
     '/.+': {
         target: 'https://m.weibo.cn',
         changeOrigin: true,

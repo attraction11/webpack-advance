@@ -19,6 +19,7 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, 'dist'),
+        // 指定在web服务器上的根路径
         publicPath: '/',
         filename: 'js/[name]-bundle-[hash:5].js'
     },
@@ -108,7 +109,7 @@ module.exports = {
                                 // require('postcss-sprites')({
                                 //     spritePath: 'dist/assets/imgs/sprites',
                                 //     retina: true
-                                // }),      
+                                // }),
                                 require('postcss-cssnext')()
                             ]
                         }
