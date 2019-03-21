@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="309ad7be-c627-44bb-a760-30bd06af9b1a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-10 文件处理 &amp; base64 &amp; css-sprites/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-10 文件处理 &amp; base64 &amp; css-sprites/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-10 文件处理 &amp; base64 &amp; css-sprites/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-10 文件处理 &amp; base64 &amp; css-sprites/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-10 文件处理 &amp; base64 &amp; css-sprites/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-10 文件处理 &amp; base64 &amp; css-sprites/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/css.transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/css.transform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/app-bundle-14d3b.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/app-bundle-14d3b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/app-bundle-3ad53.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/app-bundle-3ad53.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/app-bundle-a6248.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/app-bundle-a6248.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/app-bundle-b55f9.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/app-bundle-b55f9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/app-bundle-ddc79.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/app-bundle-ddc79.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/assets/fonts/fontawesome-webfont-674f5.eot" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/assets/fonts/fontawesome-webfont-674f5.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/assets/fonts/fontawesome-webfont-912ec.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/assets/fonts/fontawesome-webfont-912ec.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/assets/fonts/fontawesome-webfont-af7ae.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/assets/fonts/fontawesome-webfont-af7ae.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/assets/fonts/fontawesome-webfont-b0687.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/assets/fonts/fontawesome-webfont-b0687.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/assets/fonts/fontawesome-webfont-fee66.woff" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/assets/fonts/fontawesome-webfont-fee66.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/assets/imgs/elephant-1d121.png" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/assets/imgs/elephant-1d121.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/assets/imgs/sprite.@2x-777dc.png" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/assets/imgs/sprite.@2x-777dc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/assets/imgs/sprites/sprite.@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/assets/imgs/sprites/sprite.@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/css/app-bundle-14d3b.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/css/app-bundle-14d3b.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/css/app-bundle-3ad53.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/css/app-bundle-3ad53.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/css/app-bundle-a6248.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/css/app-bundle-a6248.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/css/app-bundle-b55f9.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/css/app-bundle-b55f9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/css/app-bundle-ddc79.css" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/css/app-bundle-ddc79.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/manifest-bundle-ddc79.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/dist/manifest-bundle-ddc79.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/assets/imgs/1@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/assets/imgs/1@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/assets/imgs/2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/assets/imgs/2@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/assets/imgs/3@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/assets/imgs/3@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/assets/imgs/4@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/assets/imgs/4@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/assets/imgs/elephant.png" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/assets/imgs/elephant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/common/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/common/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/components/a.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/components/a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/css/base.less" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/css/base.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/css/common.less" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/css/common.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/css/components/a.less" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/css/components/a.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/src/libs/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/src/libs/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-8 Postcss in webpack/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-8 Postcss in webpack/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/3-9 Tree shaking/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/3-9 Tree shaking/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/4-2 Webpack-dev-server historyApiFallback/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/4-2 Webpack-dev-server historyApiFallback/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/4-3 Webpack-dev-server proxy/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/4-3 Webpack-dev-server proxy/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/4-4 模块热更新/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/4-4 模块热更新/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/4-5 区分生产环境 和 开发环境/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/4-5 区分生产环境 和 开发环境/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/4-5 区分生产环境 和 开发环境/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/4-5 区分生产环境 和 开发环境/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/build/historyfallback.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/build/historyfallback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/build/proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/build/proxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/build/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/build/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/build/webpack.dll.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/build/webpack.dll.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/build/webpack.prod.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/5-3 长缓存优化/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/5-3 长缓存优化/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/5-4 多页应用/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/5-4 多页应用/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/React-project-eject/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/React-project-eject/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/React-project-eject/config/webpack.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/React-project-eject/config/webpack.config.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/React-project-eject/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/React-project-eject/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/Vue-project-todo/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/Vue-project-todo/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/Vue-project-todo/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/Vue-project-todo/build/vue-loader.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/Vue-project-todo/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/Vue-project-todo/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/Vue-project-todo/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/Vue-project-todo/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/Vue-project-todo/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/Vue-project-todo/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/Vue-project-todo/src/pages/Todos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/Vue-project-todo/src/pages/Todos.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/Vue-project-todo/test/e2e/specs/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/Vue-project-todo/test/e2e/specs/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/Vue-project-todo/test/unit/specs/HelloWorld.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/Vue-project-todo/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4+/ng-project-eject/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4+/ng-project-eject/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/src/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/typings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/typings/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/typings/modules/lodash/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/typings/modules/lodash/typings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/webpack.dev.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack4-ts-todo/webpack.prod.config.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="App.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/src/components/App/App.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/src/components/App/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/src/components/App/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack4+/React-project-eject/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-920">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ExtractTextWebpackPlugin</find>
+      <find>extractLess</find>
+      <find>import</find>
+      <find>hash:5</find>
+      <find>html-lo</find>
+      <find>html-we</find>
+      <find>HotM</find>
+      <find>SourceM</find>
+      <find>esli</find>
+      <find>merg</find>
+      <find>styleLoader</find>
+      <find>generateLoaders</find>
+      <find>cssLoaders</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>MiniCssExtractPlugin</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/webpack4+/3-8 Postcss in webpack/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack4+/3-8 Postcss in webpack/package.json" />
+        <option value="$PROJECT_DIR$/webpack4+/3-9 Tree shaking/dist/0.bundle.js" />
+        <option value="$PROJECT_DIR$/webpack4+/3-9 Tree shaking/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack4+/3-10 文件处理 &amp; base64 &amp; css-sprites/package.json" />
+        <option value="$PROJECT_DIR$/webpack4+/3-10 文件处理 &amp; base64 &amp; css-sprites/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack4+/3-11 HTML 处理/dist/index.html" />
+        <option value="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack4+/4-2 Webpack-dev-server historyApiFallback/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack4+/4-5 区分生产环境 和 开发环境/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack4+/4-3 Webpack-dev-server proxy/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack4+/4-4 模块热更新/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack4+/4-5 区分生产环境 和 开发环境/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/build/server.js" />
+        <option value="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/package.json" />
+        <option value="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/build/proxy.js" />
+        <option value="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/build/historyfallback.js" />
+        <option value="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/build/webpack.dll.conf.js" />
+        <option value="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/build/webpack.prod.conf.js" />
+        <option value="$PROJECT_DIR$/webpack4+/5-3 长缓存优化/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack4+/5-4 多页应用/webpack.config.js" />
+        <option value="$PROJECT_DIR$/webpack4+/Vue-project-todo/build/utils.js" />
+        <option value="$PROJECT_DIR$/webpack4+/Vue-project-todo/build/vue-loader.conf.js" />
+        <option value="$PROJECT_DIR$/webpack4+/Vue-project-todo/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/webpack4+/Vue-project-todo/src/pages/Todos.vue" />
+        <option value="$PROJECT_DIR$/webpack4+/my-react-app/src/index.js" />
+        <option value="$PROJECT_DIR$/webpack4+/my-react-app/src/components/App/App.css" />
+        <option value="$PROJECT_DIR$/webpack4+/my-react-app/src/components/App/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/webpack4+/my-react-app/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/webpack4+/3-10 文件处理 &amp; base64 &amp; css-sprites/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/3-11 HTML及其中图片处理和优化/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/3-3 Babel config/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/3-4 TS-loader/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/3-5 提取公共代码/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/3-6 代码分割 &amp; 懒加载/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/3-7 Less-loader &amp; css-loader &amp; style-loader/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/3-8 Postcss in webpack/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/3-9 Tree shaking/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/4-1 webpack watch/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/4-2 Webpack-dev-server historyApiFallback/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/4-3 Webpack-dev-server proxy/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/4-4 模块热更新/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/4-5 区分生产环境 和 开发环境/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/4-6 使用webpack middle搭建开发服务/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/5-1 使用 webpack-bundle-analyze 分析打包/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/5-2 优化打包速度/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/5-3 长缓存优化/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/5-4 多页应用/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/React-project-eject/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/Vue-project-todo/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/Webpack 4 - 优化和TreeShaking 代码切分/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/Webpack 4 - 默认配置 和 mode/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/my-react-app/package.json" />
+      <path value="$PROJECT_DIR$/webpack4+/ng-project-eject/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1296" />
+    <option name="height" value="1035" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webpack4-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack4-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack4-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack4-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack4+" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack4-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack4-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack4+" type="462c0819:PsiDirectoryNode" />
+              <item name="my-react-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack4-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack4-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack4+" type="462c0819:PsiDirectoryNode" />
+              <item name="my-react-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack4-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack4-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack4+" type="462c0819:PsiDirectoryNode" />
+              <item name="my-react-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack4-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack4-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack4+" type="462c0819:PsiDirectoryNode" />
+              <item name="my-react-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\07、前端学习\webpack4-demo\webpack4+\my-react-app\src\components\App" />
+      <recent name="E:\07、前端学习\webpack4-demo\webpack4+\my-react-app\src\assets\image" />
+      <recent name="E:\07、前端学习\webpack4-demo\webpack4+\my-react-app\src\components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="309ad7be-c627-44bb-a760-30bd06af9b1a" name="Default" comment="" />
+      <created>1553069361574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553069361574</updated>
+      <workItem from="1553069363965" duration="29940000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29940000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21207307" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329806" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.90652555" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18268467" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.2627866" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-2 优化打包速度/build/webpack.dll.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-2 优化打包速度/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-2 优化打包速度/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-2 优化打包速度/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-2 优化打包速度/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-2 优化打包速度/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-2 优化打包速度/build/vue-loader.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-3 长缓存优化/src/async.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-3 长缓存优化/src/foo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-3 长缓存优化/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-4 多页应用/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-4 多页应用/src/pages/a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-4 多页应用/src/pages/b.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-4 多页应用/src/pages/c.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-4 多页应用/src/css/a.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-4 多页应用/src/css/b.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-4 多页应用/src/css/c.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-4 多页应用/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="64" column="15" lean-forward="true" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-4 多页应用/webpack.config.single.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <folding>
+            <element signature="e#299#1017#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/5-4 多页应用/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/build/vue-loader.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/build/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-898">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#2187#2586#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-786">
+          <caret line="85" column="43" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/.babelrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/.postcssrc.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/React-project-eject/scripts/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/React-project-eject/scripts/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1517" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/React-project-eject/scripts/test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/Vue-project-todo/src/pages/Todos.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/React-project-eject/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-920">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/src/components/App/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/src/components/App/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/src/components/App/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack4+/my-react-app/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
