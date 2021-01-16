@@ -7,16 +7,16 @@ import mutations from './mutations'
 
 Vue.use(Vuex)
 
-export default new Vuex.Store({
-  state: {
-    todos: [
-      {
-        id: 1,
-        text: 'first job'
-      }
-    ]
-  },
+let state = {
+  todos: [{
+    id: 1,
+    text: 'first job'
+  }]
+}
 
+export default new Vuex.Store({
+  modules: {},
+  state,
   getters,
   actions,
   mutations

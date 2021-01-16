@@ -1,11 +1,16 @@
-import * as Types from './mutation-types'
+import { fetchTodo } from '@/api/todo'
 
 export default {
   addTodo ({ commit }, todo) {
-    commit(Types.ADDTODO, todo)
+    commit('ADD_TODO', todo)
   },
 
   delTodo ({ commit }, todo) {
-    commit(Types.DELTODO, todo)
+    commit('DEL_TODO', todo)
+  },
+
+  async getTodo ({ commit }, todo) {
+    let list = await fetchTodo()
+    return list
   }
 }
