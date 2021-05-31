@@ -1,7 +1,7 @@
 'use strict'
 const path = require('path')
 const utils = require('./utils')
-// const webpack = require('webpack')
+const webpack = require('webpack')
 const config = require('../config')
 const merge = require('webpack-merge')
 const baseWebpackConfig = require('./webpack.base.conf')
@@ -95,6 +95,10 @@ const webpackConfig = merge(baseWebpackConfig, {
         //   'process.env': env
         // }),
         new VueLoaderPlugin(),
+
+        new webpack.ProvidePlugin({
+            moment: "moment",
+        }),
         // extract css into its own file
         // new ExtractTextPlugin({
         //     filename: utils.assetsPath('css/[name].[contenthash].css'),

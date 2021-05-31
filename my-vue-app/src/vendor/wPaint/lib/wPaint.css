@@ -1,0 +1,179 @@
+._wPaint_menu {
+    padding: 1px;
+    background: #f6f6f6;
+    border-radius: 5px;
+    z-index: 100;
+    min-width: 550px;
+    height: 40px;
+}
+
+._wPaint_options {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+._wPaint_icon, ._wPaint_dropDown, ._wPaint_colorPicker {
+    height: 20px;
+    width: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+._wPaint_lineWidth, ._wPaint_fontSize {
+    padding: 0;
+}
+
+._wPaint_lineWidth, ._wPaint_fontSize, ._wPaint_fontFamily {
+    overflow: hidden
+}
+
+._wPaint_dropDown select {
+    background-color: #f6f6f6;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    width: 44px;
+    margin-left: -3px
+}
+
+._wPaint_dropDown_cover {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 20px;
+    width: 4px;
+    background-color: #f6f6f6
+}
+
+._wPaint_icon, ._wPaint_dropDown, ._wPaint_colorPicker {
+    border-color: #999
+}
+
+._wPaint_icon:hover, ._wPaint_icon.active {
+    /* border-color: #f88017;
+    background-color: #e5e5e5 */
+}
+
+._wPaint_handle {
+    float: left;
+    width: 10px;
+    height: 22px;
+    background: #afafaf;
+    border-radius: 3px 0 0 3px;
+    cursor: pointer
+}
+
+._wPaint_textInput {
+    position: absolute;
+    border: dotted #00f 1px;
+    background: 0;
+    margin: 0;
+    padding: 0;
+    outline-width: 0;
+    word-wrap: break-word;
+    overflow: hidden
+}
+
+._wPaint_colorPicker {
+    padding: 0;
+}
+
+._wColorPicker_buttonBorder {
+    border: 0
+}
+
+._wPaint_colorPicker {
+    float: left
+}
+
+._wPaint_menu_vertical ._wPaint_icon, ._wPaint_menu_vertical ._wPaint_dropDown, ._wPaint_menu_vertical ._wPaint_colorPicker {
+    margin: 2px 0
+}
+
+._wPaint_menu_vertical ._wPaint_handle {
+    width: 30px;
+    height: 10px;
+    border-radius: 3px 3px 0 0
+}
+
+._wPaint_handle {
+    background-image: url('/src_pc/vendor/wPaint/images/menu_handle.png')
+}
+
+._wPaint_undo {
+    background-image: url('/src_pc/vendor/wPaint/images/undo_inactive.png')
+}
+
+._wPaint_undo.uactive {
+    background-image: url('/src_pc/vendor/wPaint/images/undo.png')
+}
+
+._wPaint_redo {
+    background-image: url('/src_pc/vendor/wPaint/images/redo_inactive.png')
+}
+
+._wPaint_redo.uactive {
+    background-image: url('/src_pc/vendor/wPaint/images/redo.png')
+}
+
+._wPaint_clear {
+    background-image: url('/src_pc/vendor/wPaint/images/clear.png')
+}
+
+._wPaint_clear:hover {
+    background-image: url('/src_pc/vendor/wPaint/images/clear_hover.png')
+}
+
+._wPaint_rectangle {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_rectangle.png');
+}
+
+._wPaint_rectangle.active {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_rectangle_inactive.png');
+}
+
+._wPaint_ellipse {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_ellipse.png');
+}
+
+._wPaint_ellipse.active {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_ellipse_inactive.png');
+}
+
+._wPaint_line {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_line.png')
+}
+
+._wPaint_pencil {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_pencil.png')
+}
+
+._wPaint_pencil.active {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_pencil_inactive.png')
+}
+
+._wPaint_text {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_text.png')
+}
+
+._wPaint_text.active {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_text_inactive.png')
+}
+
+._wPaint_eraser {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_eraser.png')
+}
+
+._wPaint_bold {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_bold.png')
+}
+
+._wPaint_italic {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_italic.png')
+}
+
+._wPaint_underline {
+    background-image: url('/src_pc/vendor/wPaint/images/icon_underline.png')
+}

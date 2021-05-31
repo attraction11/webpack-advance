@@ -49,6 +49,29 @@ const devWebpackConfig = merge(baseWebpackConfig, {
             poll: config.dev.poll,
         }
     },
+    optimization: {
+        splitChunks: {
+            cacheGroups: { // 这里开始设置缓存的 chunks
+                commons: {
+                    chunks: 'all', // 必须三选一： "initial" | "all" | "async"(默认就是异步)
+                    minSize: 0, // 最小尺寸，默认0,
+                    minChunks: 2, // 最小 chunk ，默认1
+                    maxInitialRequests: 10, //  最大的初始化加载次数，默认为1；
+                    name: 'commons', // 要缓存的 分隔出来的 chunk 名称
+                },
+                vendor: {
+                    test: /node_modules/, // 正则规则验证，如果符合就提取 chunk
+                    chunks: 'all', // 必须三选一： "initial" | "all" | "async"(默认就是异步)
+                    name: 'vendor', // 要缓存的 分隔出来的 chunk 名称
+                    priority: 10, // 缓存组优先级
+                    enforce: true
+                }
+            }
+        },
+        runtimeChunk: {
+            name: 'runtime'
+        }
+    },
     plugins: [
         // new webpack.DefinePlugin({
         //     'process.env': require('../config/dev.env')
@@ -60,10 +83,15 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: 'index.html',
-            inject: true
+            inject: true,
+            chunks: ['main', 'commons', 'vendor', 'runtime']
         }),
 
         new VueLoaderPlugin(),
+
+        new webpack.ProvidePlugin({
+            moment: "moment"
+        }),
 
         // copy custom static assets
         new CopyWebpackPlugin([
