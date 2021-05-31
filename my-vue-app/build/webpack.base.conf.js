@@ -55,7 +55,7 @@ module.exports = {
             'utils': resolve('src/utils'),
             'store': resolve('src/store'),
             'router': resolve('src/router'),
-            '@static': resolve('src/static'),
+            '@assets': resolve('src/assets'),
         }
     },
     module: {
@@ -71,7 +71,7 @@ module.exports = {
             {
                 test: /\.css$/,
                 loader: 'style-loader!css-loader!postcss-loader',
-                exclude: [resolve('node_modules'), resolve("src/static")],
+                exclude: [resolve('node_modules'), resolve("src/assets")],
             },
             {
                 test: /\.js$/,
@@ -89,6 +89,7 @@ module.exports = {
             {
                 test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
                 loader: 'url-loader',
+                exclude: resolve("src/icons"),
                 options: {
                     limit: 10000,
                     name: utils.assetsPath('img/[name].[hash:7].[ext]')

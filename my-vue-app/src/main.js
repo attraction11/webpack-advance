@@ -24,7 +24,7 @@ import * as directives from './directives'
 Object.keys(directives).forEach(k => Vue.directive(k, directives[k]))
 
 // 导入并注册全局过滤函数
-import * as filters from './filters'
+import * as filters from './filter'
 Object.keys(filters).forEach((key) => { Vue.filter(key, filters[key]) })
 
 // 导入并添加全局调用函数
