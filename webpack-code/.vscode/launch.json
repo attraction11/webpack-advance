@@ -7,11 +7,20 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "run debug",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\run.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "webpack debug",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\node_modules\\webpack\\bin\\webpack.js"
+            "program": "${workspaceFolder}\\lgPack\\lib\\webpack.js"
         },
         {
             "type": "pwa-chrome",

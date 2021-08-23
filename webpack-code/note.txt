@@ -7,3 +7,13 @@
     - options
     - complier
     - complier.run( 至于 run 里面做了什么，后续再分析， 当前只关注代码入口点)
+
+04、文件 node_modules\webpack\lib\Compiler.js  this.hooks 中关键步骤的执行顺序
+    - beforeRun
+    - run 
+    - thisCompilation
+    - compilation
+    - beforeCompile
+    - compile
+    - make
+    - afterCompile    
