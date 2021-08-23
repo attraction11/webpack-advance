@@ -1,0 +1,9 @@
+01、 cmd文件的核心作用就是组装了 node  ****/webpack/bin/webpack.js
+
+02、 webpack.js中的核心操作是 require 了 node_modules/webpack-cli/bin/cli.js
+
+03、 cli.js 
+    - 文件有2个操作：处理参数和将参数交给不同的逻辑（分发业务）
+    - options
+    - complier
+    - complier.run( 至于 run 里面做了什么，后续再分析， 当前只关注代码入口点)
