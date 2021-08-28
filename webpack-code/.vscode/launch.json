@@ -16,6 +16,15 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "backup debug",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\backup.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "webpack debug",
             "skipFiles": [
                 "<node_internals>/**"
