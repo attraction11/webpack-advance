@@ -3,11 +3,11 @@ const path = require('path')
 
 module.exports = {
     devtool: 'none',
-    context: process.cwd(),
     mode: 'development',
+    context: process.cwd(),
     entry: './src/index.js',
     output: {
-        filename: 'built.js',
+        filename: 'index.js',
         path: path.resolve('dist')
     },
     //   plugins: [

@@ -45,7 +45,7 @@ class Compilation extends Tapable {
             context,
             rawRequest: entry,
             resource: path.posix.join(context, entry),
-            moduleId: './' + path.relative(context, path.posix.join(context, entry))
+            moduleId: './' +  path.posix.relative(context, path.posix.join(context, entry))
         }, (entryModule) => {
             this.entries.push(entryModule)
         }, callback)
@@ -124,7 +124,7 @@ class Compilation extends Tapable {
         this.hooks.afterChunks.call(this.chunks)
 
         // 生成代码内容
-        this.createChunkAssets(this.chunks)
+        this.createChunkAssets()
 
         callback()
     }
