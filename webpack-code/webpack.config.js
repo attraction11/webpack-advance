@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
     devtool: 'none',
-    context: path.resolve(__dirname),
+    context: process.cwd(),
     mode: 'development',
     entry: './src/index.js',
     output: {

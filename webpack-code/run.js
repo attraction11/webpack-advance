@@ -1,4 +1,4 @@
-let webpack = require('./lgPack/lib/webpack')
+let webpack = require('./lgPack')
 let options = require('./webpack.config')
 
 let complier = webpack(options)

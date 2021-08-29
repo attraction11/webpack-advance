@@ -2,7 +2,7 @@ const babylon = require('babylon')
 const { Tapable } = require('tapable')
 
 class Parser extends Tapable {
-    parser (source) {
+    parse (source) {
         return babylon.parse(source, {
             sourceType: 'module',
             plugins: ['dynamicImport']
