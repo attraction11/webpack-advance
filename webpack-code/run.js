@@ -3,12 +3,8 @@ let options = require('./webpack.config')
 
 let complier = webpack(options)
 
+// 由 compiler 调用run方法
 complier.run(function (err, stats) {
     console.log(err)
-    console.log(stats.toJson({
-        entries: true,
-        chunks: false,
-        modules: false,
-        assets: false,
-    }))
+    console.log(stats)
 })

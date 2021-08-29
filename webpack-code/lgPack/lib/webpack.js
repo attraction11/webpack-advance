@@ -3,7 +3,7 @@ const NodeEnvironmentPlugin = require('./node/NodeEnvironmentPlugin')
 const WebpackOptionsApply = require('./WebpackOptionsApply')
 
 const webpack = function (options) {
-    // 1、实例化 compiler 对象
+    // 1、实例化 compiler 对象(它会贯穿整个webpack工作的过程)
     let compiler = new Compiler(options.context)
     compiler.options = options
 
