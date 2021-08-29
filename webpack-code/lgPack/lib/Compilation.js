@@ -97,7 +97,7 @@ class Compilation extends Tapable {
                 name: dependency.name,
                 context: dependency.context,
                 rawRequest: dependency.rawRequest,
-                moduleId: dependency.depModuleId,
+                moduleId: dependency.moduleId,
                 resource: dependency.resource
             }, null, done)
         }, callback);
